@@ -1,0 +1,57 @@
+/*
+ * Created by jub on 23.12.2017.
+/*----------------------------------------------------------------
+        Form Styling
+----------------------------------------------------------------*/
+/*------------------------------------------------------
+        Searchbox
+------------------------------------------------------*/
+#searchbox {
+    min-width: 12ch;
+    margin: auto;
+    text-align: center;
+}
+
+#search_input {
+    min-width: 15ch;
+    width: 80%;
+    max-width: 800px;
+    height: 35px;
+    margin: auto; /*, var(--header-nav-width); /* auto;*/
+}
+
+/*------------------------------------------------------
+        Searchbox
+------------------------------------------------------*/
+input[type='text'], input[type='password'] {
+    background: var(--black33-color);
+    color: var(--shadow25-color);
+    padding: 5px;
+    margin-top: 00px;
+    font-size: 2em;
+    text-align: center;
+    border: 2px solid var(--shadow3-color);
+    -webkit-font-smoothing: antialiased;
+    box-shadow: 0 0 8px 0 var(--shadow25-color);
+    transition: border 300ms, box-shadow 500ms, border-radius 300ms;
+}
+
+input[type='text']:hover, input[type='password']:hover {
+    border: 2px solid var(--shadow35-color);
+    box-shadow: 0 0 13px 0 var(--shadow35-color);
+    transition: border 300ms, box-shadow 500ms;
+
+}
+
+input[type='text']:focus, input[type='password']:focus {
+    outline: none;
+    /*color: var(--black1c-color);*/
+    color: var(--thy-color);
+    border: 2px solid var(--black1c-color);
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    /*cursor: none;*/
+    box-shadow: 0 0 18px 0 var(--shadow5-color);
+    transition: border 300ms, box-shadow 300ms, border-radius 300ms;
+}
