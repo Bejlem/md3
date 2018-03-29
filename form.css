@@ -16,7 +16,7 @@
     min-width: 15ch;
     width: 80%;
     max-width: 800px;
-    height: 35px;
+    height: 36px;
     margin: auto; /*, var(--header-nav-width); /* auto;*/
 }
 
