@@ -2,7 +2,7 @@ $(document).ready(function() {
   //var $cat_media = $('#cat_media');
   //var categories = [ '#cat_media', '#cat_social', '#cat_games', '#cat_reddit', '#cat_code', '#cat_work', '#cat_banking', '#cat_misc' ];
   
-  window.alert( categories[2] );
+  //window.alert( categories[2] );
   window.alert( 'Hello World!' );
 
   //get items from local storage
