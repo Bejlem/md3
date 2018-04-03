@@ -4,7 +4,7 @@
         Category List Styling
 ----------------------------------------------------------------*/
 .category {
-    width: 100%;
+    /*width: 100%;*/
     display: flex;
     position: relative;
 
