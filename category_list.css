@@ -77,3 +77,7 @@
 .category:nth-child(8) {
     color: var(--child8-color);
 }
+
+.category:nth-child(9) {
+    color: var(--child9-color);
+}
