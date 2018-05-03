@@ -33,7 +33,7 @@ input[type='text'], input[type='password'] {
     border: 2px solid var(--shadow3-color);
     -webkit-font-smoothing: antialiased;
     box-shadow: 0 0 8px 0 var(--shadow25-color);
-    transition: border 300ms, box-shadow 500ms, border-radius 300ms;
+    transition: color 300ms, border 300ms, box-shadow 500ms, border-radius 300ms;
 }
 
 input[type='text']:hover, input[type='password']:hover {
@@ -48,11 +48,10 @@ input[type='text']:focus, input[type='password']:focus {
     /*color: var(--black1c-color);*/
     color: var(--strtpg2-color);
     border: 2px solid var(--black1c-color);
-    border: 2px solid var(--strtpg2-color);
     border-radius: 5px;
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
     /*cursor: none;*/
     box-shadow: 0 0 18px 0 var(--shadow5-color);
-    transition: border 300ms, box-shadow 300ms, border-radius 300ms;
+    transition: color 300ms, border 300ms, box-shadow 300ms, border-radius 300ms;
 }
