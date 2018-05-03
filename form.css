@@ -48,6 +48,7 @@ input[type='text']:focus, input[type='password']:focus {
     /*color: var(--black1c-color);*/
     color: var(--thy-color);
     border: 2px solid var(--black1c-color);
+    border: 2px solid var(--thy-color);
     border-radius: 5px;
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
