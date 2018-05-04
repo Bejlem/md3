@@ -78,6 +78,7 @@
     color: var(--child8-color);
 }
 
+/* Bookmarks */
 .category:nth-child(9) {
     color: var(--child9-color);
 }
