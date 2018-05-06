@@ -41,15 +41,15 @@ html {
     --black3e-color: #3e3e3e;
     --black77-color: #777777;
 
-    --child1-color: #E74F4F;
-    --child2-color: #6bd2db;
-    --child3-color: #9ed670;
-    --child4-color: #EC732D;
-    --child5-color: var(--black12-color);
-    --child6-color: #5CBCFF;
-    --child7-color: #ffbe4f;
-    --child8-color: #E36290;
-    --child9-color: #C28CFF;
+    --child01-color: #E74F4F;
+    --child02-color: #6bd2db;
+    --child03-color: #9ed670;
+    --child04-color: #EC732D;
+    --child05-color: var(--black12-color);
+    --child06-color: #5CBCFF;
+    --child07-color: #ffbe4f;
+    --child08-color: #E36290;
+    --child09-color: #C28CFF;
 
     --thy-wt-color: #fff;
     --thy-rd-color: #FF5F5D;
@@ -85,6 +85,36 @@ html {
     --label-width: 160px;
     --label-width: 10ch;
 
+    --bg1-color: var(--black33-color);
+    --bg2-color: var(--black21-color);
+    
+    
+    --bg1-color:        #1A3C40;
+    --bg2-color:        #144D53;
+    --main1-color:      #307672;
+    --text-color:       #E4EDDB;
+
+    --bg1-color:        #232931;
+    --bg2-color:        #393E46;
+    --main1-color:      #A0C1B8;
+    --main1-color:      #A9ECA2;
+    --text-color:       #E4EDDB;
+    --text-shadow-color:rgba(228,237,219,.25);
+    
+    --child01-color: #A0C1B8;
+    --child02-color: #f5feb6;
+    --child03-color: #f0fcb4;
+    --child04-color: #ecfbb3;
+    --child05-color: #e7fab1;
+    --child06-color: #e2f8af;
+    --child07-color: #ddf7ad;
+    --child08-color: #d8f5ab;
+    --child09-color: #d3f4a9;
+    --child10-color: #cff3a8;
+    --child11-color: #caf1a6;
+    --child12-color: #c5f0a4;
+    --strtpg2-color: var(--main1-color);
+
     min-height: 100%;
     background: var(--black21-color);
     font-family: 'Varela Round', sans-serif;
@@ -92,7 +122,7 @@ html {
 
 body {
     height:100%;
-    background: linear-gradient(var(--black33-color),var(--black21-color));
+    background: linear-gradient(var(--bg1-color),var(--bg2-color));
     background-repeat:no-repeat !important;
     color: #bbb;
     margin: 0 0 84px;
@@ -127,37 +157,37 @@ a:hover {
 
 /* Media */
 .color_1 {
-    color:var(--child1-color);
+    color:var(--child01-color);
 }
 
 /* Social */
 .color_2 {
-    color:var(--child2-color);
+    color:var(--child02-color);
 }
 
 /* Games */
 .color_3 {
-    color:var(--child3-color);
+    color:var(--child03-color);
 }
 
 /* Reddit */
 .color_4 {
-    color:var(--child4-color);
+    color:var(--child04-color);
 }
 
 /* Code */
 .color_5 {
-    color:var(--child5-color);
+    color:var(--child05-color);
 }
 
 /* Banking */
 .color_6 {
-    color:var(--child6-color);
+    color:var(--child06-color);
 }
 
 /* Misc */
 .color_7 {
-    color:var(--child7-color);
+    color:var(--child07-color);
 }
 
 /*----------------------------------------------------------------
@@ -165,7 +195,7 @@ a:hover {
 ----------------------------------------------------------------*/
 header {
     color: var(--black33-color);
-    /*background: var(--child3-color);*/
+    /*background: var(--child03-color);*/
     min-width: 30ch;
     height: 102px;
     margin-left: auto;
