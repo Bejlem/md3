@@ -116,7 +116,7 @@ html {
     --strtpg2-color: var(--main1-color);
 
     min-height: 100%;
-    background: var(--black21-color);
+    background: var(--bg2-color);
     font-family: 'Varela Round', sans-serif;
 }
 
