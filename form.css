@@ -6,18 +6,36 @@
 /*------------------------------------------------------
         Searchbox
 ------------------------------------------------------*/
+#search_space {
+    width: 100%;
+}
 #searchbox {
     min-width: 12ch;
     margin: auto;
+    margin-left: 12px;
+    margin-right: 26px;
     text-align: center;
 }
 
 #search_input {
-    min-width: 15ch;
-    width: 80%;
-    max-width: 800px;
+    min-width: 5ch;
+    /*width: 80%;
+    max-width: 130ch;*/
+    width: 100%;
+    /*max-width: 65.4ch;*/
+    max-width: 34ch;
     height: 36px;
     margin: auto; /*, var(--header-nav-width); /* auto;*/
+    transition: max-width 900ms;
+    -webkit-transition-timing-function: ease-in;
+    transition-timing-function: ease-in;
+}
+
+#search_input:focus {
+    max-width: 100%;
+    transition: max-width 500ms;
+    -webkit-transition-timing-function: ease-in;
+    transition-timing-function: ease-in;
 }
 
 /*------------------------------------------------------
@@ -47,6 +65,7 @@ input[type='text']:focus, input[type='password']:focus {
     outline: none;
     /*color: var(--black1c-color);*/
     color: var(--strtpg2-color);
+    color: var(--text-color);
     border: 2px solid var(--black1c-color);
     border-radius: 5px;
     -moz-border-radius: 5px;
