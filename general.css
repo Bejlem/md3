@@ -94,25 +94,28 @@ html {
     --main1-color:      #307672;
     --text-color:       #E4EDDB;
 
+    --bg1-color:        #283149;
+    --bg2-color:        #404B69;
     --bg1-color:        #232931;
-    --bg2-color:        #393E46;
+    --bg2-color:        #171819;
     --main1-color:      #A0C1B8;
     --main1-color:      #A9ECA2;
-    --text-color:       #E4EDDB;
-    --text-shadow-color:rgba(228,237,219,.25);
+    --main1-color:      #282A36;
+    --text-color:       #8787A3;
+    --text-shadow-color:rgba(242,242,249,.25);
     
-    /*--child01-color: #A0C1B8;
-    --child02-color: #f5feb6;
-    --child03-color: #f0fcb4;
-    --child04-color: #ecfbb3;
-    --child05-color: #e7fab1;
-    --child06-color: #e2f8af;
-    --child07-color: #ddf7ad;
-    --child08-color: #d8f5ab;
-    --child09-color: #d3f4a9;
-    --child10-color: #cff3a8;
-    --child11-color: #caf1a6;
-    --child12-color: #c5f0a4;*/
+    --child01-color: #F38181;
+    --child02-color: #9DD3CC;
+    --child03-color: #D0F9B1;
+    --child04-color: #FFBBE1;
+    --child05-color: #DE7D48;
+    --child06-color: #DBDBEB;
+    --child07-color: #85C8DD;
+    --child08-color: #FFECBA;
+    --child09-color: #FFDEDE;
+    --child10-color: #B793E6;
+    --child11-color: #F4E7D3;
+    --child12-color: #c5f0a4;
     --strtpg2-color: var(--main1-color);
 
     min-height: 100%;
@@ -129,7 +132,7 @@ body {
 }
 
 .spacer_top {
-    height: 36px;
+    height: 150px;
 }
 
 /*.spacer_links {
@@ -148,7 +151,8 @@ a {
 
 a:hover {
     color:inherit;
-    text-shadow: 0 0 8px var(--text-shadow-color);
+    /*text-shadow: 0 0 8px var(--text-shadow-color);*/
+    text-shadow: 0 0 8px color:inherit;
     transition: color 150ms, text-shadow 200ms;
 }
 
@@ -156,51 +160,21 @@ a:hover {
     display: none;
 }
 
-/* Media */
-.color_1 {
-    color:var(--child01-color);
-}
-
-/* Social */
-.color_2 {
-    color:var(--child02-color);
-}
-
-/* Games */
-.color_3 {
-    color:var(--child03-color);
-}
-
-/* Reddit */
-.color_4 {
-    color:var(--child04-color);
-}
-
-/* Code */
-.color_5 {
-    color:var(--child05-color);
-}
-
-/* Banking */
-.color_6 {
-    color:var(--child06-color);
-}
-
-/* Misc */
-.color_7 {
-    color:var(--child07-color);
-}
-
 /*----------------------------------------------------------------
         Header Styling
 ----------------------------------------------------------------*/
 header {
+    position: relative;
     color: var(--black33-color);
-    /*background: var(--child03-color);*/
-    min-width: 30ch;
+    background: var(--strtpg2-color);
+    max-width: calc(100% - var(--label-width));
+    min-width: 44ch;
+    max-width: 120ch;
     height: 102px;
+    height: 82px;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 22px;
     border: 2px solid  var(--shadow1-color);
     box-shadow: 0 0px 20px 0px var(--shadow5-color);
     transition: box-shadow 300ms;
@@ -219,6 +193,7 @@ header:hover {
 
 #header_top {
     height: 26px;
+    height: 16px;
     width: 100%;
     margin-left: auto;
     margin-right: auto;
@@ -226,8 +201,8 @@ header:hover {
 }
 
 #header_mid {
-    margin-left: var(--spacing);
-    margin-right: var(--spacing);
+    /*margin-left: var(--spacing);
+    margin-right: var(--spacing);*/
 
 }
 
@@ -283,6 +258,7 @@ header:hover {
 .pagecontent {
     position: relative;
     color: var(--text-color);
+    background: var(--strtpg2-color);
     -webkit-font-smoothing: antialiased;
     font-size: 1.08em;
     text-align: justify;
@@ -292,11 +268,13 @@ header:hover {
     max-width: calc(100% - var(--label-width));
     min-width: 44ch;
     max-width: 100ch;
-    padding: 20px;
+    padding: 16px;
     margin-top: 40px;
+    margin-top: 14px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 40px;
+    margin-bottom: 14px;
     overflow: hidden;
     box-shadow: 0 0 20px 0 var(--shadow5-color);
     transition: box-shadow 500ms ease;
