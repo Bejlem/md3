@@ -19,24 +19,28 @@
 	</head>
 	<body>
 		<div class='spacer_top'></div>
-		<header>
-			<div id='header_top'></div>
-			<div id='header_mid'>
-				<div id='header_info'>
-					<div class='header_info_nav'>
-						<!--<a href='../../' class='header_info_nav_button'><i class='fas fa-caret-left'></i></a>-->
-						<!--<div class='header_info_title'>strtpg2</div>-->
-					</div>
-					<form id='searchbox' method='get' action='https://ddg.gg/?q='>
-						<input id='search_input' type='text' name='q' target='_blank' placeholder='' autocomplete='off' autofocus>
-					</form>
-				</div>
-			</div>
-		</header>
+        <div class='backboard'>
+            <header>
+                <div id='header_top'></div>
+                <div id='header_mid'>
+                    <div id='header_info'>
+                        <div class='header_info_nav'>
+                            <!--<a href='../../' class='header_info_nav_button'><i class='fas fa-caret-left'></i></a>-->
+                            <!--<div class='header_info_title'>strtpg2</div>-->
+                        </div>
+                        <div id='search_space'>
+                            <form id='searchbox' method='get' action='https://ddg.gg/?q='>
+                                <input id='search_input' class='search_input' type='text' name='q' target='_blank' placeholder='' autocomplete='off' autofocus>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </header>
+        </div>
 		<content>
 			<div class='backboard'>
 				<div class='pagecontent'>
-					<div id='cat_media' class='category'>
+					<div id='cat_media' class='category_01'>
 						<div class='label'>media</div>
 						<div class='links'>
 							<a href='https://mailbox.org'>mail</a>
@@ -49,7 +53,7 @@
 							<a href='https://jott-uh-be.bandcamp.com'>bandcamp</a>
 						</div>
 					</div>
-					<div id='cat_social' class='category'>
+					<div id='cat_social' class='category_01'>
 						<div class='label'>social</div>
 						<div class='links'>
 							<a href='https://pr0gramm.com'>pr0</a>
@@ -62,7 +66,7 @@
 							<a href='https://instagram.com'>insta</a>
 						</div>
 					</div>
-					<div id='cat_games' class='category'>
+					<div id='cat_games' class='category_01'>
 						<div class='label'>games</div>
 						<div class='links'>
 							<a href='https://legiontd2.com'>ltd2</a>
@@ -71,11 +75,23 @@
 							<a href='https://battlerite.com'>battlerite</a>
 							<a href='https://docs.google.com/spreadsheets/d/11yn0crhwmH9zs9sTb6vZyyjxF1sJXWyVeTY49c2lfSM/edit#gid=1575270165'>rl pi</a>
 							<a href="https://humblebundle.com">humble bundle</a>
+                            				<a href='https://store.steampowered.com/'>steam</a>
+                            				<a href='https://www.gog.com/'>gog</a>
 							<a href="https://itch.io">itch</a>
 							<a href='http://opencritic.com/browse?page=0&sort=date&platforms=%5B27%5D&genres=%5B%5D&date=Released'>opencritic</a>
 						</div>
 					</div>
-					<div id='cat_reddit' class='category'>
+					<div id='cat_shop' class='category_01'>
+						<div class='label'>shop</div>
+						<div class='links'>
+							<a href='https://www.amazon.de/'>amazon</a>
+							<a href='https://www.ebay.de/'>ebay</a>
+							<a href='https://www.massdrop.com/'>massdrop</a>
+							<a href='https://www.discogs.com/'>discogs</a>
+                            				<a href='https://www.thomann.de/de/index.html?permsel=1'>thomann</a>
+						</div>
+					</div>
+					<div id='cat_reddit' class='category_01'>
 						<div class='label'>reddit</div>
 						<div class='links'>
 							<a href='https://reddit.com/r/skateboarding/'>shreddit</a>
@@ -87,7 +103,7 @@
 							<a href='https://reddit.com/r/slaythespire/'>slay the spire</a>
 						</div>
 					</div>
-					<div id='cat_code' class='category'>
+					<div id='cat_code' class='category_01'>
 						<div class='label'>code</div>
 						<div class='links'>
 							<a href='https://github.com/jubit'>github</a>
@@ -97,7 +113,7 @@
 							<a href='https://fontawesome.com/'>fontawesome</a>
 						</div>
 					</div>
-					<div id='cat_work' class='category'>
+					<div id='cat_work' class='category_01'>
 						<div class='label'>work</div>
 						<div class='links'>
 							<a href='https://wiki.bolde.de:444/wordpress/'>bolde wiki</a>
@@ -109,7 +125,7 @@
 							<a href='https://catalog.update.microsoft.com/Home.aspx'>muc</a>
 						</div>
 					</div>
-					<div id='cat_banking' class='category'>
+					<div id='cat_banking' class='category_01'>
 						<div class='label'>banking</div>
 						<div class='links'>
 							<a href='https://banking.postbank.de/rai/login'>postbank</a>
@@ -117,7 +133,7 @@
 							<a href='https://dkb.de/banking'>dkb</a>
 						</div>
 					</div>
-					<div id='cat_misc' class='category'>
+					<div id='cat_misc' class='category_01'>
 						<div class='label'>misc</div>
 						<div class='links'>
 							<a href='http://strtpg.ddns.net'>pi-web</a>
@@ -137,7 +153,9 @@
 							<a href="https://textfac.es">textfaces</a>
 						</div>
 					</div>
-					<div id='cat_bookmark' class='category'>
+				</div>
+				<div class='pagecontent'>
+					<div id='cat_bookmark' class='category_02'>
 						<div class='label'>bookmarks</div>
 						<div class='links'>
 							<a href='http://www.keyboard-layout-editor.com/#/gists/bcb3db20b061ab0a8a51acf618b1ab27'>pok3r layout</a>
@@ -146,7 +164,7 @@
 							<a href='http://maxkeyboard.com/max-universal-cherry-mx-black-translucent-full-keycap-set-blank.html'>black translucent keycaps</a>
 						</div>
 					</div>
-				</div>
+                		</div>
 			</div>
 		</content>
 	</body>
