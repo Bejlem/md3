@@ -143,12 +143,13 @@ a {
     margin-left: 20px;
     text-decoration: none;
     white-space: nowrap;
-    transition: color 200ms;
+    transition: color 200ms, text-shadow 250ms;
 }
 
 a:hover {
     color:inherit;
-    transition: color 150ms;
+    text-shadow: 0 0 8px var(--text-shadow-color);
+    transition: color 150ms, text-shadow 200ms;
 }
 
 .hide {
