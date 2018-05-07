@@ -262,18 +262,15 @@ header:hover {
     -webkit-font-smoothing: antialiased;
     font-size: 1.08em;
     text-align: justify;
-    /*background: linear-gradient(var(--black3e-color),var(--black2d-color));*/
     height: auto;
-    width: 100%;
+    width: auto;
     max-width: calc(100% - var(--label-width));
-    min-width: 44ch;
+    /*min-width: 44ch;*/
     max-width: 100ch;
     padding: 16px;
-    margin-top: 40px;
     margin-top: 14px;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 40px;
     margin-bottom: 14px;
     overflow: hidden;
     box-shadow: 0 0 20px 0 var(--shadow5-color);
