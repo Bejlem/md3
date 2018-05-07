@@ -100,7 +100,7 @@ body {
     background: linear-gradient(var(--bg1-color),var(--bg2-color));
     background-repeat:no-repeat !important;
     color: #bbb;
-    margin: 0 0 84px;
+    margin: 0 0 0;
 }
 
 .spacer_top {
