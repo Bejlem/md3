@@ -1,34 +1,5 @@
-e/*
+/*
  * Created by jub on 23.12.2017.
-/*----------------------------------------------------------------
-        Rules
-----------------------------------------------------------------*/
-
-/* Let's get this party started */
-::-webkit-scrollbar {
-    width: 12px;
-}
-
-/* Track */
-::-webkit-scrollbar-track {
-    background: linear-gradient(rgba(60,60,60,1), rgba(35,35,35,1));
-    -webkit-box-shadow: inset 3px 0 6px rgba(0,0,0,0.3);
-    -moz-box-shadow: inset 3px 0 6px rgba(0,0,0,0.3);
-    box-shadow: inset 3px 0 6px rgba(0,0,0,0.3);
-}
-
-/* Handle */
-::-webkit-scrollbar-thumb {
-    background: rgba(90,90,90,.8);
-    -webkit-box-shadow: inset 3px 0 6px rgba(0,0,0,0.5); 
-    -moz-box-shadow: inset 3px 0 6px rgba(0,0,0,0.5);
-    box-shadow: inset 3px 0 6px rgba(0,0,0,0.5);
-}
-
-::-webkit-scrollbar-thumb:window-inactive {
-    background: rgba(120,120,120,1);
-}
-
 /*----------------------------------------------------------------
         General Styling
 ----------------------------------------------------------------*/
@@ -130,6 +101,36 @@ a:hover {
 
 .hide {
     display: none;
+}
+
+/*----------------------------------------------------------------
+        Rules
+----------------------------------------------------------------*/
+
+/* Let's get this party started */
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: linear-gradient(var(--bg1-color), var(--bg2-color));
+    -webkit-box-shadow: inset 3px 0 6px rgba(0,0,0,0.3);
+    -moz-box-shadow: inset 3px 0 6px rgba(0,0,0,0.3);
+    box-shadow: inset 3px 0 6px rgba(0,0,0,0.3);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: var(--main1-color);
+    background: rgba(90,92,104,.6);
+    -webkit-box-shadow: inset 3px 0 6px rgba(0,0,0,0.5); 
+    -moz-box-shadow: inset 3px 0 6px rgba(0,0,0,0.5);
+    box-shadow: inset 3px 0 6px rgba(0,0,0,0.5);
+}
+
+::-webkit-scrollbar-thumb:window-inactive {
+    background: rgba(60,62,74,.8);
 }
 
 /*----------------------------------------------------------------
