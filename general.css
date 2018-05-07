@@ -41,69 +41,6 @@ html {
     --black3e-color: #3e3e3e;
     --black77-color: #777777;
 
-    --child01-color: #E74F4F;
-    --child02-color: #6bd2db;
-    --child03-color: #9ed670;
-    --child04-color: #EC732D;
-    --child05-color: var(--black12-color);
-    --child06-color: #5CBCFF;
-    --child07-color: #ffbe4f;
-    --child08-color: #E36290;
-    --child09-color: #C28CFF;
-
-    --thy-wt-color: #fff;
-    --thy-rd-color: #FF5F5D;
-    --thy-yw-color: #FFDE85;
-    --thy-bl-color: #98FFE1;
-
-    --hub-color:        var(--child1-color);
-    --strtpg2-color:    var(--child4-color);
-    --tmpltA-color:     var(--child2-color);
-    --wtch-color:       var(--child7-color);
-    --thy-color:        var(--child3-color);
-    --thy-sclr-color:   var(--thy-yw-color);
-
-    --shadow1-color:  rgba(0,0,0,.1);
-    --shadow25-color: rgba(0,0,0,.25);
-    --shadow3-color:  rgba(0,0,0,.3);
-    --shadow35-color: rgba(0,0,0,.35);
-    --shadow5-color:  rgba(0,0,0,.5);
-    --shadow6-color:  rgba(0,0,0,.6);
-    --shadow75-color: rgba(0,0,0,.75);
-    --text-color: #777;
-    --spacing: .25em;
-
-    --header-nav-width: 14ch;
-    --header-button-width: 2ch;
-    --header-title-width: 12ch;
-
-    --spacing: .25em;
-    --text-color: #777;
-    --font-size-normal: 1.08em;
-    --font-size-big: 2em;
-    --font-size-header: 3em;
-    --label-width: 160px;
-    --label-width: 10ch;
-
-    --bg1-color: var(--black33-color);
-    --bg2-color: var(--black21-color);
-    
-    
-    --bg1-color:        #1A3C40;
-    --bg2-color:        #144D53;
-    --main1-color:      #307672;
-    --text-color:       #E4EDDB;
-
-    --bg1-color:        #283149;
-    --bg2-color:        #404B69;
-    --bg1-color:        #232931;
-    --bg2-color:        #171819;
-    --main1-color:      #A0C1B8;
-    --main1-color:      #A9ECA2;
-    --main1-color:      #282A36;
-    --text-color:       #8787A3;
-    --text-shadow-color:rgba(242,242,249,.25);
-    
     --child01-color: #F38181;
     --child02-color: #9DD3CC;
     --child03-color: #D0F9B1;
@@ -116,7 +53,42 @@ html {
     --child10-color: #B793E6;
     --child11-color: #F4E7D3;
     --child12-color: #c5f0a4;
-    --strtpg2-color: var(--main1-color);
+
+    --thy-wt-color: #fff;
+    --thy-rd-color: #FF5F5D;
+    --thy-yw-color: #FFDE85;
+    --thy-bl-color: #98FFE1;
+
+    --bg1-color:        #232931;
+    --bg2-color:        #171819;
+    --main1-color:      #282A36;
+    --hub-color:        var(--child01-color);
+    --strtpg2-color:    var(--main1-color);
+    --tmpltA-color:     var(--child02-color);
+    --wtch-color:       var(--child07-color);
+    --thy-color:        var(--child03-color);
+    --thy-sclr-color:   var(--thy-yw-color);
+    --text-color:       #8787A3;
+    --text-shadow-color:rgba(242,242,249,.25);
+
+    --shadow1-color:  rgba(0,0,0,.1);
+    --shadow25-color: rgba(0,0,0,.25);
+    --shadow3-color:  rgba(0,0,0,.3);
+    --shadow35-color: rgba(0,0,0,.35);
+    --shadow5-color:  rgba(0,0,0,.5);
+    --shadow6-color:  rgba(0,0,0,.6);
+    --shadow75-color: rgba(0,0,0,.75);
+
+    --header-nav-width: 14ch;
+    --header-button-width: 2ch;
+    --header-title-width: 12ch;
+
+    --spacing: .25em;
+    --font-size-normal: 1.08em;
+    --font-size-big: 2em;
+    --font-size-header: 3em;
+    --label-width: 160px;
+    --label-width: 10ch;
 
     min-height: 100%;
     background: var(--bg2-color);
