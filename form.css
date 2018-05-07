@@ -38,7 +38,7 @@
         Searchbox
 ------------------------------------------------------*/
 input[type='text'], input[type='password'] {
-    background: var(--black33-color);
+    background: var(--bg1-color);
     color: var(--shadow25-color);
     padding: 5px;
     margin-top: 00px;
