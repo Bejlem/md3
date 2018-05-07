@@ -140,6 +140,7 @@ header {
     background: var(--strtpg2-color);
     max-width: calc(100% - var(--label-width));
     /*min-width: 44ch;*/
+    min-width: 44ch;
     max-width: 120ch;
     height: 102px;
     height: 82px;
