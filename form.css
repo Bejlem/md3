@@ -33,7 +33,7 @@
 }
 
 #search_input:focus {
-    max-width: calc(100% - (2 * var(--default-margin)));
+    max-width: calc(100% - (2 * var(--default-margin)) + 8px);
     transition: color 300ms, border 300ms, max-width 500ms ease-in, box-shadow 500ms, border-radius 300ms;
 }
 
