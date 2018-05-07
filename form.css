@@ -26,16 +26,12 @@
     max-width: 34ch;
     height: 36px;
     margin: auto; /*, var(--header-nav-width); /* auto;*/
-    transition: max-width 900ms;
-    -webkit-transition-timing-function: ease-in;
-    transition-timing-function: ease-in;
+    transition: color 300ms, border 300ms, max-width 500ms ease-in-out, box-shadow 500ms, border-radius 300ms;
 }
 
 #search_input:focus {
     max-width: 100%;
-    transition: max-width 500ms;
-    -webkit-transition-timing-function: ease-in;
-    transition-timing-function: ease-in;
+    transition: color 300ms, border 300ms, max-width 500ms ease-in, box-shadow 500ms, border-radius 300ms;
 }
 
 /*------------------------------------------------------
