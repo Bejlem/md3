@@ -33,6 +33,7 @@ html {
     --bg1-color:        #232931;
     --bg2-color:        #171819;
     --main1-color:      #282A36;
+    --main2-color:      #484B61;
     --hub-color:        var(--child1-color);
     --strtpg2-color:    var(--main1-color);
     --tmpltA-color:     var(--child2-color);
@@ -55,6 +56,8 @@ html {
     --header-title-width: 12ch;
 
     --spacing: .25em;
+    --default-margin: 14px;
+    --default-padding: 16px;
     --font-size-normal: 1.08em;
     --font-size-big: 2em;
     --font-size-header: 3em;
@@ -72,6 +75,23 @@ body {
     background-repeat:no-repeat !important;
     color: #bbb;
     margin: 0 0 0;
+}
+
+.colorline_top {
+    height: 4px;F
+    width: auto;
+    background: var(--bg2-color);
+    background: linear-gradient(to right,
+                                var(--child01-color),
+                                var(--child02-color),
+                                var(--child03-color),
+                                var(--child04-color), 
+                                var(--child05-color), 
+                                var(--child06-color), 
+                                var(--child07-color), 
+                                var(--child08-color), 
+                                var(--child09-color), 
+                                var(--child10-color));
 }
 
 .spacer_top {
@@ -106,6 +126,7 @@ a:hover {
 /*----------------------------------------------------------------
         Rules
 ----------------------------------------------------------------*/
+
 /* Width of Scrollbar */
 ::-webkit-scrollbar {
     width: 12px;
@@ -121,10 +142,11 @@ a:hover {
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
+    background: var(--main1-color);
     background: rgba(90,92,104,.6);
-    -webkit-box-shadow: inset 3px 0 6px rgba(0,0,0,0.5); 
-    -moz-box-shadow: inset 3px 0 6px rgba(0,0,0,0.5);
-    box-shadow: inset 3px 0 6px rgba(0,0,0,0.5);
+    -webkit-box-shadow: inset 3px 0 6px rgba(0,0,0,0.3); 
+    -moz-box-shadow: inset 3px 0 6px rgba(0,0,0,0.3);
+    box-shadow: inset 3px 0 6px rgba(0,0,0,0.3);
 }
 
 ::-webkit-scrollbar-thumb:window-inactive {
@@ -141,14 +163,13 @@ header {
     max-width: calc(100% - var(--label-width));
     /*min-width: 44ch;*/
     max-width: 120ch;
-    height: 102px;
     height: 82px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 22px;
     border: 2px solid  var(--shadow1-color);
     box-shadow: 0 0px 20px 0px var(--shadow5-color);
-    transition: box-shadow 300ms;
+    transition: box-shadow 500ms ease;
     font-family: 'Varela Round', sans-serif;
     -webkit-font-smoothing: antialiased;
 }
@@ -160,6 +181,7 @@ header:before {
 
 header:hover {
     box-shadow: 0 0 25px 0px var(--shadow5-color);
+    transition: box-shadow 500ms ease;
 }
 
 #header_top {
@@ -172,8 +194,8 @@ header:hover {
 }
 
 #header_mid {
-    /*margin-left: var(--spacing);
-    margin-right: var(--spacing);*/
+    margin-left: var(--default-margin);
+    margin-right: var(--default-margin);
 
 }
 
@@ -238,11 +260,11 @@ header:hover {
     max-width: calc(100% - var(--label-width));
     /*min-width: 44ch;*/
     max-width: 100ch;
-    padding: 16px;
-    margin-top: 14px;
+    padding: var(--default-padding);
+    margin-top: var(--default-margin);
+    margin-bottom: var(--default-margin);
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 14px;
     overflow: hidden;
     box-shadow: 0 0 20px 0 var(--shadow5-color);
     transition: box-shadow 500ms ease;
