@@ -96,9 +96,9 @@
 
 /* Misc */
 .category_01:nth-child(10) {
-    color: 
+    color: var(--child10-color);
 
 /* Bookmarks */
 .category_02:nth-child(1) {
-    color: var(--child10-color);
+    color: var(--child11-color);
 }
