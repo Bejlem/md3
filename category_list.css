@@ -64,35 +64,39 @@
     color: var(--child03-color);
 }
 
-/* Reddit */
+/* Shop */
 .category_01:nth-child(4) {
     color: var(--child04-color);
 }
 
-/* Code */
+/* Reddit */
 .category_01:nth-child(5) {
     color: var(--child05-color);
 }
 
-/* Work */
+/* Code */
 .category_01:nth-child(6) {
     color: var(--child06-color);
 }
 
-/* Banking */
+/* Work */
 .category_01:nth-child(7) {
     color: var(--child07-color);
 }
 
-/* Misc */
+/* School */
 .category_01:nth-child(8) {
     color: var(--child08-color);
 }
 
-/* Bookmarks */
+/* Banking */
 .category_01:nth-child(9) {
     color: var(--child09-color);
 }
+
+/* Misc */
+.category_01:nth-child(10) {
+    color: 
 
 /* Bookmarks */
 .category_02:nth-child(1) {
