@@ -116,7 +116,7 @@ a {
 a:hover {
     color:inherit;
     /*text-shadow: 0 0 8px var(--text-shadow-color);*/
-    text-shadow: 0 0 8px;
+    /*text-shadow: 0 0 8px;*/
     color:inherit;
     transition: color 150ms, text-shadow 200ms;
 }
